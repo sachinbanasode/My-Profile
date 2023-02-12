@@ -2,33 +2,54 @@
 <html>
     <head>
         <title> Index </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
+            
             .name{
                 color: rgb(190, 7, 7);
                 background-color: rgb(226, 192, 151);
-
+                border: 1px solid chartreuse;
+                border-radius: 10px;
+                background-image: url ('my clg1.jpg');
             }
             .space{
-                padding-left: 50px;
+                padding: 5px 25px;
+                background-color: rgb(196, 234, 8);
+                border: 1px solid rgb(21, 1, 18);
+                border-radius: 10px;
+            }
+            .space2{
+                padding: 5px 25px;
+                color: rgb(166, 10, 42);
+                background-color: rgb(196, 234, 8);
+                border: 1px solid rgb(21, 1, 18);
+                border-radius: 10px;
+                font-family: 'Roboto Slab', serif;
             }
             .space1{
                 padding-left: 20px;
             }
+            body{
+                background-image:url('my clg1.jpg');
+            }
+            
         </style>
     </head>
     <body>
         <header>
-            <a> <i class="fa fa-user" aria-hidden="true"></i></a>  <label><span class="name">Sachin Banasode</span></label>
+            <a class="space"> <i class="fa fa-user" aria-hidden="true"></i></a>  <label><span class="name">Sachin Banasode</span></label>
             <a class="space"> <i class="fa fa-phone-square" aria-hidden="true"></i></a>  <label class="name">8308719594</label>
             <a class="space"> <i class="fa fa-envelope" aria-hidden="true"></i></a>  <label class="name">sachinbansode119@gmail.com</label>
         </header><br>
         <nav>
-           <a  href="home.html" target="myframe">HOME </a> &nbsp; &nbsp;
-          <a class="space" href="techStack.html" target="myframe">TACH STACK</a> &nbsp; &nbsp;
-          <a class="space" href="education1.html" target="myframe">EDUCATION </a> &nbsp; &nbsp;
-          <a class="space" href="intriduce.html" target="myframe">PERSONAL  </a> &nbsp; &nbsp;
-          <a class="space" href="contactus.html" target="myframe">CONTACT US </a>
+           <a class="space2"href="home.html" target="myframe">HOME </a> &nbsp; &nbsp;
+          <a class="space2" href="techStack.html" target="myframe">TACH STACK</a> 
+          <a class="space2" href="education1.html" target="myframe">EDUCATION </a>
+          <a class="space2" href="intriduce.html" target="myframe">PERSONAL  </a> 
+          <a class="space2" href="contactus.html" target="myframe">CONTACT US </a>
         </nav>
         <br> 
         <iframe width="1050" height="650" name="myframe" src="home.html">
